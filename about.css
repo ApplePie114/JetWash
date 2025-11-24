@@ -1,0 +1,10 @@
+.compact-list {
+	margin: 0;
+	line-height: 1.5;
+	padding-left: 3rem;
+}
+
+.compact-list li {
+	margin: 0 0 6px 0;
+	padding: 0;
+}

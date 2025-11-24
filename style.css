@@ -1,0 +1,127 @@
+body {
+	margin: auto 0;
+	min-width: 150px;
+	font-family: Arial;
+	background-image: url(img/bubbles.png);
+	background-repeat: repeat;
+	background-position: top left;
+	background-color: #e6f4ff;
+}
+
+img {
+	width: 50px;
+}
+
+@font-face {
+	font-family: rain;
+	src: url(font/rain.ttf);
+}
+
+@font-face {
+	font-family: rainy;
+	src: url(font/RainyFontBold.otf);
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+/*NAV*/
+.navbar {
+	font-family: "Rain";
+	display: flex;
+	height: 80px;
+	width: 100vw;
+	list-style: none;
+	font-size: 1.6rem;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 2px solid #000;
+	background-color: #67c0e0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar {
+    	font-size: 1.3rem;
+	}
+}
+
+li {
+	padding: 20px;
+	margin: 10px;
+}
+
+.push {
+	margin-left: auto;
+}
+
+.zone {
+	display: flex;
+}
+
+/*COVER*/
+.title {
+	font-family: "Rainy";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 7rem;
+	padding: 20px 50px 20px 50px;
+	font-weight: bold;
+}
+
+.image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cover {
+	width: 30rem;
+}
+
+.container {
+	display: flex;
+	align-items: start;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.logo {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 120px;
+}
+
+.logoimg {
+	padding-top: 10px;
+}
+
+.logotext {
+	font-size: 0.6em;
+}
+
+.logolink {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
