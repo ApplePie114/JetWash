@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse; /* makes borders clean */
+}
+
+table, th, td {
+    border: 2px solid black;  /* adds borders to every cell */
+}
+
+th, td {
+    padding: 10px;            /* optional but looks nicer */
+    text-align: center;
+}
+
+.services-page {
+    margin-left: 10px;
+}
